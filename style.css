@@ -1,0 +1,206 @@
+html{
+    scroll-behavior: smooth;
+}
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Delicious+Handrawn&family=Orbitron:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Press+Start+2P&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+body{
+    height: 100vh;
+    background: url(https://static.vecteezy.com/system/resources/previews/024/276/239/non_2x/abstract-blue-glowing-waves-from-particles-and-dots-energy-magical-futuristic-hi-tech-abstract-background-free-photo.jpg) no-repeat center / cover;
+    padding: 50px 5%;
+}
+
+.container{
+    position: relative;
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 30px;
+    backdrop-filter: blur(30px);
+    padding: 40px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    
+}
+    
+
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 15px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    backdrop-filter: blur(10px);
+}
+
+.logo{
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+.navbar a{
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    border-bottom: 2px solid transparent;
+    transition: .3s;
+
+}
+.navbar a:hover{
+    border-color: #fff;
+}
+.home{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    gap: 50px;
+    padding: 20px 5% 0;
+    color: #fff;
+    justify-content: space-between;
+    
+}
+.home-detail h1{
+    font-size: 40px;
+    
+}
+
+.home-detail h2{
+    font-size: 28px;
+   
+}
+.home-detail p{
+    margin: 10px 0 20px;
+
+}
+.home-detail .download-social{
+    display: flex;
+    align-items: center;
+}
+.btn{
+    display: inline;
+    padding: 10px 30px;
+    background: #fff;
+    border: 2px solid #fff;
+    border-radius: 40px;
+    box-shadow: 0 0 10px #fff;
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+    transition: .5s;
+}
+.btn:hover{
+    background: transparent;
+    box-shadow: none;
+    color: #fff;
+}
+.home-detail .social-icons a{
+    display: inline-flex;
+    padding: 8px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    margin: 0 8px;
+    transition: .5s;
+}
+.home-detail .social-icons a:hover{
+    background: #fff;
+    box-shadow: 0 0 10px #fff;
+    color: #333;
+}
+.home-img .img-box{
+    position: relative;
+    width: 31vh;
+    height: 31vh;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 20px #fff;
+    overflow: hidden;
+    margin-bottom: 80px;
+}
+.home-img .img-box img{
+    position: absolute;
+    top:2px;
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+.section{
+    padding: 60px 5%;
+    text-align: center;
+    color: #fff;
+    background:black;
+    border-radius: 20px;
+    margin: 340px 0;
+    box-shadow: 0 0 30px rgb(18, 122, 191);
+}
+.section h2{
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.section p, .section ul {
+    font-size: 18px;
+    line-height: 1.5;
+}
+.project-item {
+    margin-top: 20px;
+}
+
+.project-item h3 {
+    font-size: 24px;
+    color: #FFD700;
+}
+/* Contact Form */
+
+.form-container {
+    background: rgb(7, 160, 202);
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    width: 450px;
+    position: relative;
+    
+    
+}
+
+
+
+.form-container h2 {
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+form input,
+form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+
